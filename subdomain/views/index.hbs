@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+</head>
+<body>
+{{#if isLogin}}
+    <p>hello {{name}}</p>
+    <a href="/logout">logout</a>
+{{else}}
+    <a href="/login">login</a>
+{{/if}}
+
+</body>
+</html>

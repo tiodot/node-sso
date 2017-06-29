@@ -1,0 +1,28 @@
+{
+  "name": "node-sso",
+  "version": "1.0.0",
+  "description": "使用node实现单点登录系统",
+  "main": "app.js",
+  "dependencies": {
+    "debug": "^2.6.8",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-hbs": "^1.0.0",
+    "koa-router": "^7.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swxy/node-sso.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swxy/node-sso/issues"
+  },
+  "homepage": "https://github.com/swxy/node-sso#readme"
+}
